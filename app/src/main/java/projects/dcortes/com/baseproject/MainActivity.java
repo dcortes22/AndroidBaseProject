@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ServiceHandler handler = new ServiceHandler();
-        Map<String, String> params = new ArrayMap<String, String>();
+        Map<String, Object> params = new ArrayMap<String, Object>();
         params.put("title", "foo");
         params.put("body", "bar");
         params.put("userId", "1");

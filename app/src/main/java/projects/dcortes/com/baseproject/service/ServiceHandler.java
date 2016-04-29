@@ -25,7 +25,7 @@ public class ServiceHandler {
         mHeaders.put(key,value);
     }
 
-    public <T> void objectRequest(String url, int method, Map<String, String> params, Class clazz,
+    public <T> void objectRequest(String url, int method, Map<String, Object> params, Class clazz,
                                   Response.Listener<T> response, Response.ErrorListener error) {
         String tag_json_arry = "object_req";
 
